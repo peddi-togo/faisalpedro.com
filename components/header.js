@@ -5,13 +5,13 @@ export default function Header() {
   return (
     <header>
       <div className="max-w-md py-9 mx-auto">
-        <NextLink href="/" className="flex items-center justify-center gap-2">
+        <NextLink href="/" className="flex flex-col items-center justify-center gap-2">
           <Avatar
             src="/images/pedro.jpeg"
             alt="Faisal Pedro"
-            size={24}
+            size={80}
           />
-          <h1 className="text-l text-gray-500 font-semibold">Faisal Pedro</h1>
+          <h1 className="text-lg text-gray-500 font-semibold">Faisal Pedro</h1>
         </NextLink>
       </div>
     </header>
