@@ -4,9 +4,13 @@ import Avatar from "@/components/avatar";
 export default function Header() {
   return (
     <header>
-      <div className="max-w-xl mx-auto">
+      <div className="max-w-md py-9 mx-auto">
         <NextLink href="/" className="flex items-center justify-center gap-2">
-          <Avatar src="/images/pedro.jpeg" alt="Faisal Pedro" width={24} height={24} />
+          <Avatar
+            src="/images/pedro.jpeg"
+            alt="Faisal Pedro"
+            size={24}
+          />
           <h1 className="text-l text-gray-500 font-semibold">Faisal Pedro</h1>
         </NextLink>
       </div>
