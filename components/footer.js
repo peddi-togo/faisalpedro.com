@@ -3,7 +3,7 @@ import Icon from "@/components/icon";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="px-3">
       <div className="max-w-md py-9 mx-auto">
         <div className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
           <Link href="tel:+17788776997" className="group">

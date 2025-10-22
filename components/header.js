@@ -3,7 +3,7 @@ import Avatar from "@/components/avatar";
 
 export default function Header() {
   return (
-    <header>
+    <header className="px-3">
       <div className="max-w-md py-9 mx-auto">
         <NextLink href="/" className="flex flex-col items-center justify-center gap-2">
           <Avatar
