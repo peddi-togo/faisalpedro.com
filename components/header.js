@@ -11,7 +11,7 @@ export default function Header() {
             alt="Faisal Pedro"
             size={80}
           />
-          <h1 className="text-lg text-gray-500 font-semibold">Faisal Pedro</h1>
+          <h1 className="text-lg text-gray-600 font-semibold">Faisal Pedro</h1>
         </NextLink>
       </div>
     </header>
