@@ -4,7 +4,7 @@
     "phone": "+17788776997",
     "email": "fslpdr@gmail.com",
     "linkedin": "https://www.linkedin.com/in/faisal-pedro-1412b1161/",
-    "resume": "/resume.pdf",
+    "resume": "/resume/faisal-pedro-resume.pdf",
     "avatar": "/images/pedro.jpeg"
   },
   "contact_links": [
@@ -19,7 +19,7 @@
       "label": "Email"
     },
     {
-      "href": "/resume.pdf",
+      "href": "/resume/faisal-pedro-resume.pdf",
       "iconName": "document",
       "label": "Resume",
       "download": true
