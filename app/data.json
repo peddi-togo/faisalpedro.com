@@ -1,4 +1,35 @@
 {
+  "contact_info": {
+    "name": "Faisal Pedro",
+    "phone": "+17788776997",
+    "email": "fslpdr@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/faisal-pedro-1412b1161/",
+    "resume": "/resume.pdf",
+    "avatar": "/images/pedro.jpeg"
+  },
+  "contact_links": [
+    {
+      "href": "tel:+17788776997",
+      "iconName": "phone",
+      "label": "Phone"
+    },
+    {
+      "href": "mailto:fslpdr@gmail.com",
+      "iconName": "envelope",
+      "label": "Email"
+    },
+    {
+      "href": "/resume.pdf",
+      "iconName": "document",
+      "label": "Resume",
+      "download": true
+    },
+    {
+      "href": "https://www.linkedin.com/in/faisal-pedro-1412b1161/",
+      "iconName": "user",
+      "label": "LinkedIn"
+    }
+  ],
   "professional_highlights": [
     "Delivered exceptional customer experiences using strong communication, high emotional intelligence, and upselling strategies to drive sales and foster loyalty.",
     "Proven leadership and team management skills with integrity and accountability, capable of staff training and ensuring consistent, strong in-store performance.",
