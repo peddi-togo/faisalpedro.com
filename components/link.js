@@ -1,8 +1,8 @@
 import NextLink from "next/link";
-import clsx from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export default function Link({ href, children, className = "", ...props }) {
-  const combinedClassName = clsx(
+  const combinedClassName = twMerge(
     "flex items-center gap-2 underline decoration-dotted underline-offset-3 hover:decoration-solid",
     className
   );

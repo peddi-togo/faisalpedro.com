@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export default function Button({
   variant = "primary",
@@ -18,7 +18,7 @@ export default function Button({
 
   return (
     <button
-      className={clsx(baseStyles, variants[variant], className)}
+      className={twMerge(baseStyles, variants[variant], className)}
       {...props}
     >
       {children}
