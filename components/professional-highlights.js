@@ -1,4 +1,5 @@
 import Heading from "./heading";
+import List from "./list";
 import data from "@/app/data.json";
 
 export default function ProfessionalHighlights() {
@@ -10,14 +11,7 @@ export default function ProfessionalHighlights() {
         <Heading level={2} iconName="spark" className="mb-4">
           Professional Highlights
         </Heading>
-        <ul className="space-y-3 ">
-          {highlights.map((highlight, index) => (
-            <li key={index} className="flex gap-3">
-              <span className="text-gray-700">•</span>
-              <span>{highlight}</span>
-            </li>
-          ))}
-        </ul>
+        <List items={highlights} />
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 import Heading from "./heading";
+import List from "./list";
 import data from "@/app/data.json";
 
 export default function WorkExperience() {
@@ -22,20 +23,9 @@ export default function WorkExperience() {
 
             {/* Second column: Details */}
             <div>
-              <h3 className="font-semibold">
-                {exp.job_title} at {exp.company}
-              </h3>
-              <p className="text-gray-600 text-sm mb-3">
-                {exp.location || "TBA"}
-              </p>
-              <ul className="space-y-3">
-                {exp.achievements.map((achievement, idx) => (
-                  <li key={idx} className="flex gap-3">
-                    <span className="text-gray-700">•</span>
-                    <span>{achievement}</span>
-                  </li>
-                ))}
-              </ul>
+              <Heading level={3}>{exp.company}</Heading>
+              <p className="text-gray-600 text-sm mb-3">{exp.job_title}</p>
+              <List items={exp.achievements} />
             </div>
           </div>
         ))}
