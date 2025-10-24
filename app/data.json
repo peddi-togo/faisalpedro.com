@@ -10,8 +10,14 @@
     {
       "job_title": "Flooring Installer",
       "company": "Wael Flooring Ltd.",
-      "from": "Dec 2024",
-      "to": "Now",
+      "from": {
+        "month": "Dec",
+        "year": "2024"
+      },
+      "to": {
+        "month": "",
+        "year": "Now"
+      },
       "achievements": [
         "Managed installation projects across multiple units and properties, completing over 11,000 sq ft of laminate and vinyl and 5,000 sq ft of carpet tile within tight deadlines.",
         "Prepared and levelled floors, ensuring surfaces were clean, smooth, and ready for precise laminate, vinyl, or carpet installation.",
@@ -25,8 +31,14 @@
     {
       "job_title": "Assistant Store Manager",
       "company": "RW&CO",
-      "from": "Nov 2022",
-      "to": "Nov 2024",
+      "from": {
+        "month": "Nov",
+        "year": "2022"
+      },
+      "to": {
+        "month": "Nov",
+        "year": "2024"
+      },
       "achievements": [
         "Directed all aspects of daily store operations, including sales performance, merchandising, scheduling, and inventory control.",
         "Led a team of 10+ associates, fostering a customer-focused culture that consistently exceeded sales and service targets.",
@@ -40,8 +52,14 @@
     {
       "job_title": "Team Lead",
       "company": "RW&CO",
-      "from": "Oct 2021",
-      "to": "Nov 2022",
+      "from": {
+        "month": "Oct",
+        "year": "2021"
+      },
+      "to": {
+        "month": "Nov",
+        "year": "2022"
+      },
       "achievements": [
         "Served as acting manager in the absence of management, directing daily store operations and ensuring smooth execution of all promotions, visuals, and sales activities.",
         "Acted as the first point of contact for staff concerns or operational issues, resolving matters independently and escalating only when necessary.",
@@ -52,8 +70,14 @@
     {
       "job_title": "Sales Associate / Key Holder",
       "company": "RW&CO",
-      "from": "Apr 2018",
-      "to": "Oct 2021",
+      "from": {
+        "month": "Apr",
+        "year": "2018"
+      },
+      "to": {
+        "month": "Oct",
+        "year": "2021"
+      },
       "achievements": [
         "Welcomed and engaged every customer at the entrance, clearly communicating in-store promotions and driving traffic toward key product areas.",
         "Assisted customers with fitting rooms, provided tailored recommendations, and upsold promotional items to increase overall transaction value.",
@@ -67,8 +91,14 @@
     {
       "institution": "Kwantlen Polytechnic University",
       "degree": "Diploma in General Studies",
-      "from": "Jan 2018",
-      "to": "Aug 2021"
+      "from": {
+        "month": "Jan",
+        "year": "2018"
+      },
+      "to": {
+        "month": "Aug",
+        "year": "2021"
+      }
     }
   ]
 }
