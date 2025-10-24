@@ -1,13 +1,8 @@
 import Icon from "./icon";
+import data from "@/app/data.json";
 
 export default function ProfessionalHighlights() {
-  const highlights = [
-    "Delivered exceptional customer experiences using strong communication, high emotional intelligence, and upselling strategies to drive sales and foster loyalty.",
-    "Proven leadership and team management skills with integrity and accountability, capable of staff training and ensuring consistent, strong in-store performance.",
-    "Expertise in Flooring Knowledge & Product Familiarity combined with Visual Merchandising & Display Setup for practical customer guidance and premium store presentation.",
-    "Organized, disciplined, and detail-oriented approach ensures accuracy in estimates, orders, and professional POS Operation & Cash Handling.",
-    "Bilingual communication (English/A2 French), enabling clear, customer-focused interactions with a diverse clientele.",
-  ];
+  const highlights = data.professional_highlights;
 
   return (
     <section className="max-w-md py-12 mx-auto">
